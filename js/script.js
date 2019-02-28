@@ -67,7 +67,7 @@ $('#go').click(function () {
 //reset teh race
 $('#reset').click(function() {
     $('.car').css('left','0');
-    $('.raceinfo').text('')
+    $('.raceinfo span').text('')
 });
 
 
